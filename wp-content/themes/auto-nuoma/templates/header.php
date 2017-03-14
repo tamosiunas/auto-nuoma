@@ -47,15 +47,15 @@
           <p>tinkamą automobilį</p>
         </div>
         <div class="icon-text-info row">
-          <div class="iti-wrap col-md-4">
+          <div class="iti-wrap col-md-4 col-sm-4 col-xs-4">
             <i class="fa fa-key fa-5x" aria-hidden="true"></i><br>
             <span>automobiliai iš "pirmų rankų"</span>
           </div>
-          <div class="iti-wrap col-md-4">
+          <div class="iti-wrap col-md-4 col-sm-4 col-xs-4">
             <i class="fa fa-money fa-5x" aria-hidden="true"></i><br>
             <span>pirkimas galimas ir be užstato</span>
           </div>
-          <div class="iti-wrap col-md-4">
+          <div class="iti-wrap col-md-4 col-sm-4 col-xs-4">
             <i class="fa fa-wrench fa-5x" aria-hidden="true"></i><br>
             <span>automobiliai pilnai sutvarkyti bei paruošti naudojimui</span>
           </div>

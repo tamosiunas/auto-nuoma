@@ -98,6 +98,7 @@ use Roots\Sage\Wrapper;
                   </div>
                 </div>
               </div>
+
               <div id="myModal-<?php the_ID(); ?>" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                       <!-- Bootstrap Modal content-->
@@ -116,6 +117,7 @@ use Roots\Sage\Wrapper;
                       </div>
                   </div>
               </div>
+              
             <?php endwhile; ?>
             <?php wp_reset_query(); ?>
             </div>
