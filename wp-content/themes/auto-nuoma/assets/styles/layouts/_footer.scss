@@ -1,0 +1,51 @@
+.footer-content-info {
+
+    h1 {
+        font-family: Exo\ 2,sans-serif;
+        line-height: 1.2;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+        color: #8bc745;
+        margin-bottom: 40px;
+    }
+    .footer-content-address {
+        margin-top: 50px;
+        dl {
+
+            dt {
+                font-family: Exo\ 2,sans-serif;
+                line-height: 1.2;
+                letter-spacing: 1px;
+                color: #000;
+            }
+            dd {
+
+            }
+        }
+        .footer-logo {
+
+            a {
+                float: right;
+            }
+            
+        }
+    }
+
+    .footer-map {
+
+        iframe {
+            pointer-events: none;
+        }
+    }
+
+    .footer-copyright {
+
+        p {
+            color: #c0c0c0;
+            text-align: center;
+        }
+    }
+
+}

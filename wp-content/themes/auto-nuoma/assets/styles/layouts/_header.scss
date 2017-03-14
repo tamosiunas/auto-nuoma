@@ -1,0 +1,190 @@
+//-------------navigation-------------
+.banner {
+    background: url(..//images/bg-header.png) 0% 0% no-repeat;
+}
+
+.logo {
+    display: block;
+    width: 86px;
+    height: 54px;
+    background: url(..//images/logo.png) no-repeat;
+}
+
+.navbar-default {
+    background-color: #fbfbfb; 
+    border-color: transparent;
+}
+
+.navbar-wrap {
+    padding: 35px 0px;
+    margin-top: 65px;
+}
+
+.social-icons {
+    li {
+        float: left;
+        list-style-type: none;
+        margin-right: 15px;
+        a {
+            color: rgb(192, 192, 192);
+            &:hover {
+                text-decoration: none;
+                color: rgb(210, 75, 75);
+            }
+        }
+    }
+}
+
+.logo-outer {
+    margin: 5px 0px;
+}
+
+.navigation-menu {
+    margin: 5px 0px;
+}
+
+.social-icons-outer {
+    margin: 20px 0px;
+}
+
+.header-mobile-outer {
+    margin: 20px 0px;
+    .header-mobile {
+        color: #ab2c2c;
+        text-decoration: none;
+        &:hover {
+            color: rgb(210, 75, 75);
+        }
+        &::before {
+            margin-right: 5px;
+        }
+    }
+}
+
+.navbar-nav {
+    li {
+        a {
+            font-weight: bolder;
+            &:hover {
+                color: rgb(210, 75, 75) !important;
+            }
+        }
+    }
+    .active {
+        a {
+            color: rgb(210, 75, 75) !important;
+            background-color: transparent !important;
+            font-size: 16px;
+        }
+    }
+}
+
+//-------------section two down-------------
+.header-text {
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 40px;
+    p {
+        text-align: center;
+        color: rgb(171, 44, 44);
+        ;
+    }
+}
+
+.icon-text-info {
+    text-align: center;
+    margin-top: 100px;
+    i {
+        color: #8bc745;
+        margin-bottom: 10px;
+    }
+    span {
+        color: #000000;
+        font-size: 15px;
+    }
+}
+
+
+/* Contact 7 Forms
+--------------------------------------------- */
+
+div.wpcf7 {
+    width: 75%;
+    margin-left: 15%;
+    margin-top: -30px;
+    margin-bottom: -50px;
+    background-color: rgb(171, 44, 44);
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    &:hover {
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
+    .wpcf7-form {
+        p {
+            font-family: "PT Sans", sans-serif;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: rgb(255, 255, 255);
+            padding-top: 20px;
+            span.wpcf7-form-control-wrap {
+                .wpcf7-form-control {
+                    padding: 5px 10px;
+                    border-radius: 8px;
+                }
+                .wpcf7-not-valid-tip {
+                    position: absolute;
+                    color: #ffffff;
+                    margin-left: 80px;
+                }
+            }
+            .ajax-loader {
+                display: none;
+            }
+        }
+        span {
+            color: black;
+            input {}
+            .wpcf7-textarea {
+                resize: none;
+                height: 200px;
+            }
+        }
+    }
+}
+
+input#formname,
+#emailform,
+#subject,
+#message {
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input#formname {
+    margin-top: 20px;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    margin-bottom: 20px;
+    background-color: #ffd630;
+    color: #000000;
+    width: 93%;
+    font-family: Exo\ 2, sans-serif;
+    text-transform: uppercase;  
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.wpcf7-validation-errors {
+    border: none;
+    color: #ffffff;
+    margin: 0px;
+}

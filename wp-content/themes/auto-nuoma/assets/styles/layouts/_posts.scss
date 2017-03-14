@@ -1,0 +1,170 @@
+.thumbnail-img {
+    display: inline-block;
+}
+
+.post {
+    margin-top: 30px;
+    header {
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.wrap-pirkti-auto {
+    background: url(..//images/bg-image-01.jpg) 0% 0% no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  				transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
+    
+    h1 {
+        font-family: Exo\ 2,sans-serif;
+        line-height: 1.2;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+        color: #fff;
+    }
+    .filter-wrap {
+        margin-right: 15px;
+    }
+    .pirkti-auto {
+
+        img {
+            position: relative;
+            display: inline-block;
+            height: auto;
+            max-width: 100%;
+            overflow: hidden;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+        .pirkti-auto-tmumbnail {
+            position: relative;
+            margin-top: 30px;
+            img {
+                filter: brightness(70%);
+                -webkit-filter: brightness(70%);
+                -moz-filter: brightness(70%);
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+                transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+                &:hover {
+                    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+                }
+            }
+            .pirkti-auto-permalink {
+                a {
+                    color: #fff;
+                    position: absolute;
+                    /* z-index: 1; */
+                    bottom: 10px;
+                    right: 20px;
+                    font-size: 22px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
+            .auto-price {
+                p {
+                    position: absolute;
+                    display: inline-block;
+                    padding: 0 10px 3px 11px;
+                    font-size: 18px;
+                    font-family: Exo\ 2, sans-serif;
+                    z-index: 1;
+                    top: 10px;
+                    left: 0px;
+                    background-color: #ffd630;
+                }
+            }
+            .pirkti-auto-caption {
+                position: absolute;
+                bottom: -20px;
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.wrap-nuomuotis-auto {
+    background: url(../images/bg-header.png) 0px 0px no-repeat;
+    padding-top: 50px;
+
+    h1 {
+        font-family: Exo\ 2,sans-serif;
+        line-height: 1.2;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 40px;
+        color: #000000;
+        margin-bottom: 70px;
+    }
+    .nuomuotis-auto-single {
+        margin-bottom: 80px;
+        .nuomuotis-auto-thumbnail {
+
+            .btn-sunglow {
+                font-family: Exo\ 2,sans-serif;
+                background-color:#ffd630;
+                color: #000000;
+                text-transform: uppercase;
+                display:block;
+                width: 100%;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            
+            
+        }
+        .nuomuotis-auto-permalink {
+            p {
+                color: #d24b4b;
+                font-size: 28px;
+                text-transform: uppercase;
+                line-height: 0.6;
+                font-family: Exo\ 2, sans-serif;
+                letter-spacing: 1px;
+                
+            }
+        }
+        .auto-price {
+            p {
+                font-size: 22px;
+                font-family: Exo\ 2, sans-serif;
+            }
+        }
+        .pirkti-auto-content {
+            ul {
+                li {
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}
+
+//Media queries
+@media(max-width:767px){
+    .pirkti-auto img {
+        min-width: 100%;
+    }
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:992px){
+
+}
+
+@media(min-width:1200px){
+
+}
