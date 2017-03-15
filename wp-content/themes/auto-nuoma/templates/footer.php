@@ -10,7 +10,7 @@
 		<div class="container">
 			
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4 col-xs-4">
 					<dl class="footer-contact-info">
 						<dt>Adresas:</dt>
 						<dd class="heading-5">Dainavos - 1, Raudondvaris, 
@@ -20,7 +20,7 @@
 						
 					</dl>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-4 col-xs-4">
 					<dl>
 						<dt>Mob. Nr.:</dt>
 						<dd>	
@@ -34,7 +34,7 @@
 						</dd>
 					</dl>
 				</div>
-				<div class="col-md-4 footer-logo">
+				<div class="col-md-4 col-sm-4 col-xs-4 footer-logo">
 					<a class="logo navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"></a>
 				</div>
 

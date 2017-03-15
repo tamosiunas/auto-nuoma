@@ -131,7 +131,6 @@
                 line-height: 0.6;
                 font-family: Exo\ 2, sans-serif;
                 letter-spacing: 1px;
-                
             }
         }
         .auto-price {
@@ -155,14 +154,34 @@
     .pirkti-auto img {
         min-width: 100%;
     }
+    .icon-text-info {
+        margin-bottom: 50px;
+    }
+
+    
+    .wrap-nuomuotis-auto .nuomuotis-auto-single .nuomuotis-auto-permalink p {
+         margin-top: 30px;
+    }   
+        
+    
 }
 
 @media(min-width:768px){
+    .icon-text-info {
+        margin-bottom: 50px;
+    }
+    
 
+    .wrap-nuomuotis-auto .nuomuotis-auto-single .nuomuotis-auto-permalink p {
+         margin-top: 30px;
+    }   
+        
 }
 
 @media(min-width:992px){
-
+    .wrap-nuomuotis-auto .nuomuotis-auto-single .nuomuotis-auto-permalink p {
+        margin-top: 0px;
+    }
 }
 
 @media(min-width:1200px){

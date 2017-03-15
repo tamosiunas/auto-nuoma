@@ -3,7 +3,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="row">
-          <div class="logo-outer col-md-1">
+          <div class="logo-outer col-md-1 col-sm-2">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -14,7 +14,7 @@
               <a class="logo navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"></a>
             </div>
           </div>
-          <div class="navigation-menu col-md-7">
+          <div class="navigation-menu col-md-7 col-sm-10">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav menuSlider">
                 <li><a href=".banner">Pradžia</a></li>
@@ -24,7 +24,7 @@
               </ul>
             </div>
           </div>
-          <div class="social-icons-outer col-md-2">
+          <div class="social-icons-outer col-md-2 col-sm-4 col-xs-6">
             <ul class="social-icons">
               <li><a class="fa fa-facebook fa-lg" href="#"></a></li>
               <li><a class="fa fa-twitter fa-lg" href="#"></a></li>
@@ -32,7 +32,7 @@
               <li><a class="fa fa-google-plus fa-lg" href="#"></a></li>
             </ul>
           </div>
-          <div class="header-mobile-outer col-md-2">
+          <div class="header-mobile-outer col-md-2 col-sm-4 col-xs-6">
             <a class="header-mobile fa fa-mobile fa-lg" href="#"> + 3706 00 00 000</a>
           </div>
         </div>
